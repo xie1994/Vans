@@ -1,0 +1,228 @@
+.mine{
+	width: 100%;
+	height: 473px;
+}
+.denglu{
+	margin-top: 60px;
+	width: 100%;
+	height: 413px;
+}
+.denglu-box{
+	width: 600px;
+	height: 471px;
+	/*padding-bottom: 20px;*/
+	border: 1px solid #c9caca;
+	margin:0 auto;
+	background-color: #fff;
+
+}
+.denglu-top{
+	height: 44px;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	padding-left: 59px;
+}
+.denglu-top h3{
+	float: left;
+	font-size: 24px;
+	line-height: 44px;
+	text-align: center;
+	width: 160px;
+	cursor: pointer;
+	color: #666;
+}
+.denglu-center{
+	width: 600px;
+	height: 232px;
+}
+.denglu-center .center-1{
+	margin-bottom: 20px;
+}
+.denglu-center .center-1 span{
+	display: block;
+	margin-left: 59px;
+	width: 541px;
+	height: 50px;
+}
+.denglu-center .center-1 input{
+	width: 458px;
+	height: 26px;
+	display: block;
+	padding: 11px 0 11px 22px;
+	border: 1px solid #d7d8d4;
+	font-size: 16px;
+}
+.denglu-center #white{
+	clear: both;
+	height: 50px;
+}
+.denglu-center #white input{
+	width: 270px;
+	height: 26px;
+	padding: 11px 0 11px 22px;
+	float: left;
+	margin-left: 59px;
+	margin-right: 12px;
+}
+.denglu-center #white a{
+	width: 175px;
+	height: 50px;
+	background-color: #000;
+	float: left;
+}
+.denglu-center #white span{
+	width: 175px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+.denglu-center #zhuce span{
+	width: 482px;
+	height: 50px;
+	text-align: center;
+	background-color: #C9192E;
+	cursor: pointer;
+}
+.denglu-center #zhuce span:hover{
+	background-color: #000;
+	transition: background-color 0.2s linear;
+}
+.denglu-center #zhuce a{
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+}
+.denglu-center .last-li{
+	width: 600px;
+	height: 22px;
+	margin-bottom: 10px;
+}
+.denglu-center .last-li span{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-left: 59px;
+	border: 1px solid #d7d8d4;
+	cursor: pointer;
+	vertical-align: middle;
+	/*background: url(../img/checkbox-inacitve.svg) no-repeat 0 1px;*/
+	background-size: 16px 16px;
+}
+.denglu-center .last-li span a{
+    display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../img/checkbox-acitve.svg) no-repeat center;
+	background-size: 123% 123%;
+	/*display: none;*/
+    background-position: -1px -4px;
+}
+.denglu-center .last-li label{
+	font-size: 16px;
+	color: #d2d2d2;
+}
+.denglu-center .last-li label a{
+	font-size: 16px;
+	color: #d2d2d2;
+	text-decoration: underline;
+}
+.denglu-box .find{
+	width: 482px;
+	height: 40px;
+	margin: 25px 59px 5px 59px;
+}
+.denglu-box .find span{
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	display: block;
+	margin-top: 7px;
+}
+.denglu-box .find a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+.denglu-box .find a:first-of-type{
+	background: url(../img/weichat-round-inactive-36.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-box .find a:first-of-type:hover{
+	background: url(../img/weichat-round-active-36.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-box .find a:nth-of-type(2){
+	background: url(../img/weibo-square-inactive-36.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-box .find a:nth-of-type(2):hover{
+	background: url(../img/weibo-square-active-36.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-box .find a:nth-of-type(3){
+	background: url(../img/qq-round-inactive-36.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-box .find a:nth-of-type(3):hover{
+	background: url(../img/qq-round-active-36.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-box .find a:nth-of-type(4){
+	background: url(../img/zhifubao.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-box .find a:nth-of-type(4):hover{
+	background: url(../img/zhifubao1.svg) no-repeat center;
+	background-size: 40px 40px;
+}
+.denglu-center #notice-inline{
+	position: absolute;
+	width: 91px;
+	height: 16px;
+	top:360px;
+	padding: 4px 10px;
+	display: none;
+
+	background: url(../img/shuru.jpg) no-repeat ;
+}
+.denglu-center #notice-inline1{
+	position: absolute;
+	width: 187px;
+	height: 16px;
+	top:361px;
+	padding: 4px 10px;
+	display: none;
+	background: url(../img/chongfu.jpg) no-repeat ;
+}
+.denglu-center #notice-inline2{
+	position: absolute;
+	width: 150px;
+	height: 16px;
+	top:430px;
+	padding: 4px 10px;
+	display: none;
+	background: url(../img/pass.jpg) no-repeat ;
+}
+.denglu-center #notice-inline3{
+	position: absolute;
+	width: 157px;
+	height: 16px;
+	top:430px;
+	padding: 4px 10px;
+	display: none;
+
+	background: url(../img/zifu.jpg) no-repeat ;
+}
+.denglu-center #notice-inline4{
+	position: absolute;
+	width: 211px;
+	height: 16px;
+	top:500px;
+	padding: 4px 10px;
+	display: none;
+	
+	background: url(../img/repeat.jpg) no-repeat ;
+}

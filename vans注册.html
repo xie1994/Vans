@@ -5,8 +5,9 @@
 	<title>vans注册</title>
 	<link rel="stylesheet" href="css/vans首页.css">
 	<link rel="stylesheet" href="css/vans注册.css">
-	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="js/van注册ajax.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery-1.11.3.js"></script> -->
+	<script type="text/javascript" src="js/van注册.js"></script>
+	<script type="text/javascript" src="js/tools.js"></script>
 </head>
 <body>
 	<!-- header -->
@@ -585,14 +586,6 @@
 </html>
 <script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
 <script type="text/javascript">
-	window.onload = function(){
-		$("#zd").click(function(){
-			$("html,body").animate({
-				scrollTop:0
-			},500);
-			return false;
-		});
-	}
 	$(window).scroll(function(){
 		if($(window).scrollTop()>50){
 			// $("#zd")[0].style.display="block";
@@ -628,22 +621,9 @@
 		}
 	})
 
-	// $(".last-span").click(function(){
-	// 	$(" .last-a")[0].style.display="block";
-	// 	return false;
-	// })
-/*
-		$(".last-a").toggle(0,function(){
-			$(".last-a").click(function(){
-				$(".last-a").style.display="none";
-			}),
-			// $(" .last-a").click(function(){
-			// 	$(" .last-a")[0].style.display="block";
-			// }),
-			// return false;
-		});*/
 
-$(".last-span").click(function(){
-	$(".last-a").toggle();
-})
+	$(".last-span").click(function(){
+		$(".last-a").toggle();
+	})
+
 </script>
