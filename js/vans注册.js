@@ -8,6 +8,7 @@ window.onload = function(){
 		$("#zhuce").onblur= function(){
 			zhuce();
 		}
+		alert("12");
 	}
 
 	function zhuce(){
